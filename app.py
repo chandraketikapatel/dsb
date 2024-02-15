@@ -20,7 +20,7 @@ if st.button("submit"):
     import streamlit as st
     st.divider()
     import pandas as pd
-    df=pd.read_csv("C:\\Users\\Admin\\Desktop\\Dashboard\\survey lung cancer.csv")
+    df=pd.read_csv("survey lung cancer.csv")
     df
     st.write("Graphs of survey lung cancer")
     import matplotlib.pyplot as plt
